@@ -1,0 +1,25 @@
+{
+	"name": "couchdb-empty", 
+	"description": "script to delete all documents whose IDs do not begin with '_' from a CouchDB", 
+
+	"version": "1.0.0",
+
+	"author": {
+		"name": "Sven-S. Porst",
+		"email": "<ssp-web@earthlingsoft.net>",
+		"url": "http://earthlingsoft.net/ssp/"
+	},
+
+	"homepage": "http://github.com/ssp/couchdb-empty", 
+	"repository": "git://github.com/ssp/couchdb-empty", 
+
+	"dependencies": {
+		"nano": "2.16.x"
+	},
+
+	"keywords": [
+		"couchdb"
+	], 
+
+	"main": "./couchdb-empty.js", 
+}
